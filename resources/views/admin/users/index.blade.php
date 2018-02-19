@@ -30,6 +30,7 @@
             <td>{{$user->updated_at->diffForHumans()}}</td>
         </tr>
         @endforeach
+        
     @endif
     </tbody>
 
