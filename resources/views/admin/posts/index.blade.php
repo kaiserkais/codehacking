@@ -26,7 +26,7 @@
                 <th>{{$post->id}}</th>
                 <th><img height="50" width="50" src="{{$post->photo ? $post->photo->file : 'no picture'}}" alt=""></th>
                 <th>{{$post->user->name}}</th>
-                <th>{{$post->category_id}}</th>
+                <th>{{$post->category ? $post->category->name : 'uncategorize'}}</th>
 
                 <th>{{$post->title}}</th>
                 <th>{{$post->body}}</th>
