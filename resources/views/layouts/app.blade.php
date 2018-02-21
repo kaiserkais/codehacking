@@ -7,6 +7,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link href="{{asset('css/libs.css')}}" rel="stylesheet">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
